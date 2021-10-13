@@ -30,6 +30,12 @@ html {
   }
   .card {
     margin-right: 30px;
+    &.small {
+      width: map-get($widget-sizes, "small");
+    }
+    &.big {
+      width: map-get($widget-sizes, "large");
+    }
     .hot {
       color: orangered;
       font-weight: bold;
